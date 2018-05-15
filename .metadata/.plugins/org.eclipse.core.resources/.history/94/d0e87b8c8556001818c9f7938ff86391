@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>reg_login</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>server.jsp</welcome-file>
+    <welcome-file>deleteFood.jsp</welcome-file>
+    <welcome-file>deleteFoodByName.html</welcome-file>
+    <welcome-file>showFoodByName.htm</welcome-file>
+    <welcome-file>updateFood.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- <servlet>
+    <description></description>
+    <display-name>InitServlet</display-name>
+    <servlet-name>InitServlet</servlet-name>
+    <servlet-class>com.food.servlet.InitServlet</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InitServlet</servlet-name>
+    <url-pattern>/InitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FoodAddServlet</display-name>
+    <servlet-name>FoodAddServlet</servlet-name>
+    <servlet-class>com.food.servlet.FoodAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodAddServlet</servlet-name>
+    <url-pattern>/FoodAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodDeleteServlet</servlet-name>
+    <servlet-class>com.food.servlet.FoodDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodDeleteServlet</servlet-name>
+    <url-pattern>/FoodDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SelectServlet</servlet-name>
+    <servlet-class>com.food.servlet.SelectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectServlet</servlet-name>
+    <url-pattern>/SelectServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>FoodUpdateServlet</servlet-name>
+    <servlet-class>com.food.servlet.FoodUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodUpdateServlet</servlet-name>
+    <url-pattern>/FoodUpdateServlet</url-pattern>
+  </servlet-mapping> -->
+</web-app>

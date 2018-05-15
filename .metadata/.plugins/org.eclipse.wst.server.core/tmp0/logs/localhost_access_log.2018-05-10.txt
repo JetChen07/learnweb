@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:00:41 +0800] "GET /menu/addFood.jsp HTTP/1.1" 200 1557
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:00:44 +0800] "GET /menu/selectFood.jsp HTTP/1.1" 200 413
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:00:44 +0800] "GET /menu/updateFood.jsp HTTP/1.1" 200 1611
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:00:46 +0800] "GET /menu/deleteById.jsp HTTP/1.1" 200 743
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:00:50 +0800] "GET /menu/addFood.jsp HTTP/1.1" 200 1557
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:00:52 +0800] "GET /menu/selectFood.jsp HTTP/1.1" 200 413
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:00:53 +0800] "GET /menu/updateFood.jsp HTTP/1.1" 200 1611
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:00:56 +0800] "GET /menu/deleteById.jsp HTTP/1.1" 200 743
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:01:02 +0800] "POST /menu/FoodDeleteServlet HTTP/1.1" 200 743
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:01:08 +0800] "GET /menu/updateFood.jsp HTTP/1.1" 200 1611
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:01:17 +0800] "GET /menu/selectFood.jsp HTTP/1.1" 200 413
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:01:19 +0800] "GET /menu/selectFood.jsp HTTP/1.1" 200 413
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:01:20 +0800] "GET /menu/selectFood.jsp HTTP/1.1" 200 413
+0:0:0:0:0:0:0:1 - - [10/May/2018:15:01:21 +0800] "GET /menu/addFood.jsp HTTP/1.1" 200 1557

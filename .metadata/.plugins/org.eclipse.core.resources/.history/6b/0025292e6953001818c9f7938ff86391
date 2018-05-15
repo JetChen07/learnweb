@@ -1,0 +1,7 @@
+package com.food.dao;
+
+public class FoodDaoImpl {
+	public void addFood(Map<String, Object> food) {
+		
+	}
+}

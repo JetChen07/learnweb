@@ -1,0 +1,50 @@
+package cn.java.servlet;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.json.JSONObject;
+
+/**
+ * Servlet implementation class musicList
+ */
+@WebServlet("/musicListServlet")
+public class musicListServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String command = request.getParameter("command");
+		JSONObject jsonObject = new JSONObject();
+		if("lx".equals(command)){
+			jsonObject.put("first", "稻香");
+			jsonObject.put("second", "晴天");
+			jsonObject.put("third", "告白气球");
+		}else if("jd".equals(command)) {
+			jsonObject.put("first", "千千阙歌");
+			jsonObject.put("second", "傻女");
+			jsonObject.put("third", "七友");
+		}else if ("yg".equals(command)) {
+			jsonObject.put("first", "一块红布");
+			jsonObject.put("second", "假行僧");
+			jsonObject.put("third", "新长征路上的摇滚");
+		}
+		response.getOutputStream().write(jsonObject.toString().getBytes("utf-8"));
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

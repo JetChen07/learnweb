@@ -1,0 +1,5 @@
+package com.food.domain;
+
+public class Food {
+
+}

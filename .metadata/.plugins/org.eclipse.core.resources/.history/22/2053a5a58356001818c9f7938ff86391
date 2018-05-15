@@ -1,0 +1,18 @@
+package com.library.dao;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import com.library.domain.*;
+public class LibDaoImpl {
+	private static final List<User> userDb = new ArrayList<User>();	
+	private static final List<Catalog> cataList = new ArrayList<Catalog>());
+	private static final List<Book> books = new ArrayList<Book>();
+	private static final LibDaoImpl instance = new LibDaoImpl();
+	
+	public static LibDaoImpl getInstance() {
+		return instance;
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+package com.library.dao;
+import java.util.List;
+import java.util.Map;
+
+import com.library.domain.*;
+public class LibDaoImpl {
+	private static final List<User> userDb = new ArrayList<User>();	
+	private static final List<Map<String, Object>> cataList = new ArrayList<Map<String,Object>>();
+	private static final List<Book> books
+}

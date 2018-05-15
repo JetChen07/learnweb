@@ -1,0 +1,8 @@
+package com.library.domain;
+
+public class Catalog {
+	private int id;
+	private String name;
+	private String desc;
+	
+}

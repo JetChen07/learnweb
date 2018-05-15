@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.menu.utils.UploadUtils"/>
+<fullyQualifiedTypeName name="com.menu.domain.Dish"/>
+<fullyQualifiedTypeName name="com.food.utils.UploadUtils"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="com.food.dao.FoodDaoImpl"/>
+<fullyQualifiedTypeName name="com.food.domain.Food"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.library.domain.User"/>
+<fullyQualifiedTypeName name="com.library.domain.Catalog"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.library.dao.LibDaoImpl"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.awt.print.Book"/>
+<fullyQualifiedTypeName name="com.library.domain.Book"/>
+</qualifiedTypeNameHistroy>

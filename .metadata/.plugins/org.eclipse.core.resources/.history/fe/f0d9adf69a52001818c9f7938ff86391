@@ -1,0 +1,5 @@
+package com.menu.servlet;
+
+public class AddFood {
+
+}

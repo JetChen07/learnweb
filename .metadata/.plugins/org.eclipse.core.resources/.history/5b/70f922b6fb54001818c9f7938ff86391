@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<head>
+<base href="<%=basePath%>">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+		<table align="center">
+			<tr>
+				<td>
+					<input type="button" value="员工列表" flag="1" onclick="showYG()">
+				</td>
+				<td>
+					<input type="button" value="职位列表"  flag="2" onclick="showZW()">
+				</td>
+				<td>
+					<input type="button" value="部门列表"  flag="3" onclick="showBM()">
+				</td>
+			</tr>
+			
+		</table>
+		<div style="width:400px,height:300px" id="div1"  align="center">
+		
+		</div>
+</body>
+<script type="text/javascript">
+	function showJava(){
+		//1、创建一个 xmlhttpRequest对象
+		var xmlhttp = new XMLHttpRequest();
+		//2、规定请求的类型、URL 以及是否异步处理请求。
+		xmlhttp.open("GET","<%=basePath%>/ListCouseServlet?flag=1",true);
+		//3、将请求发送到服务器。
+		xmlhttp.send();
+		//4、接收服务器端的响应(readyState=4表示请求已完成且响应已就绪    status=200表示请求响应一切正常)
+		xmlhttp.onreadystatechange=function(){
+			if (xmlhttp.readyState==4 && xmlhttp.status==200){
+				//responseText：表示的是服务器返回给ajax的数据
+		    	document.getElementById("div1").innerHTML=xmlhttp.responseText;
+		    	//alert(xmlhttp.responseText);
+		    }
+		}
+	}
+</script>
+
+</html>

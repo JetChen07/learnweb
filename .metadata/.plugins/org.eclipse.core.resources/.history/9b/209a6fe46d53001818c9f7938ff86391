@@ -1,0 +1,40 @@
+package com.food.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import com.food.domain.Food;
+
+public class FoodDaoImpl {
+	private static final  List<Food> list = new ArrayList<Food>();
+	public void addFood(Food food) {
+		list.add(food);
+	}
+	public List<Food> getAllFood(){
+		return list;
+		
+	}
+	public Food getFoodByName(String foodName){
+		for(Food food:list) {
+			if(food.getName().equals(foodName)){
+				return food;
+			}
+		}
+		return null;
+	}
+	public Food getFoodById(String id){
+		for(Food food:list) {
+			if(food.getId().equals(id)){
+				return food;
+			}
+		}
+		return null;
+	}
+	public void updateFood(Map<String, Object> food){
+
+	}
+	public void deleteFoodById(String id) {
+		
+	}
+}

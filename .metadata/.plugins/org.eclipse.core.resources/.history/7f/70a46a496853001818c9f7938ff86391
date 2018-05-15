@@ -1,0 +1,36 @@
+
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.menu.domain.Dish;
+
+
+/**
+ * Servlet implementation class initServlet
+ */
+public class InitServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+	public void init() throws ServletException {
+        // TODO Auto-generated constructor stub
+        List<Dish> list = new ArrayList<Dish>();
+		// Â∞Ülist‰øùÂ≠òÂà∞ServletContext‰ΩúÁî®Âüü‰∏≠:
+	
+		Dish dish = new Dish("1", "π¨±£º¶∂°", "¿±", null, "5","∫√≥‘");
+		list.add(dish);
+		this.getServletContext().setAttribute("list", list);
+    }
+
+
+}

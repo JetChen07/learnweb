@@ -1,0 +1,26 @@
+package com.food.dao;
+
+import java.util.List;
+import java.util.Map;
+
+public class FoodDaoImpl {
+	private static final List<Map<String, Object>> db;
+	public void addFood(Map<String, Object> food) {
+		
+	}
+	public List<Map<String, Object>> getAllFood(){
+		
+	}
+	public List<Map<String, Object>> getFoodByName(String foodName){
+		
+	}
+	public List<Map<String, Object>> getFoodById(String id){
+		
+	}
+	public void updateFood(Map<String, Object> food){
+		
+	}
+	public void deleteFoodById(String id) {
+		
+	}
+}
