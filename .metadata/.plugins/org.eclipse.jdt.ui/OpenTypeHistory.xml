@@ -1,7 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=Library/D:\/软件\/apache-tomcat-7.0.86\/lib\/servlet-api.jar&lt;javax.servlet(Servlet.class[Servlet" modifiers="1537" timestamp="1523287232000"/>
-<typeInfo handle="=Library/C:\/Program Files\/Java\/jre1.8.0_171\/lib\/rt.jar&lt;java.util.logging(Filter.class[Filter" modifiers="1537" timestamp="1525314947122"/>
-<typeInfo handle="=Library/D:\/软件\/apache-tomcat-7.0.86\/lib\/servlet-api.jar&lt;javax.servlet(Filter.class[Filter" modifiers="1537" timestamp="1523287232000"/>
-<typeInfo handle="=Library/C:\/Program Files\/Java\/jre1.8.0_171\/lib\/rt.jar&lt;javax.imageio.spi(ServiceRegistry$Filter.class[Filter" modifiers="1545" timestamp="1525314947122"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

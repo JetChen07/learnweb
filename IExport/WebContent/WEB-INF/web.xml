@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <welcome-file-list>
+    <welcome-file>index</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.iexport.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ImportExcelInitServlet</servlet-name>
+    <servlet-class>com.iexport.servlet.ImportExcelInitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImportExcelInitServlet</servlet-name>
+    <url-pattern>/importExcelInit</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>ImportExcelServlet</servlet-name>
+    <servlet-class>com.iexport.servlet.ImportExcelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImportExcelServlet</servlet-name>
+    <url-pattern>/importExcel</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>ExportExcelServlet</servlet-name>
+    <servlet-class>com.iexport.servlet.ExportExcelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExportExcelServlet</servlet-name>
+    <url-pattern>/exportExcel</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+        <servlet-name>exportExcelInit</servlet-name>
+        <servlet-class>com.iexport.servlet.ExportExcelInitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exportExcelInit</servlet-name>
+        <url-pattern>/exportExcelInit</url-pattern>
+    </servlet-mapping>
+    
+    
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <include-prelude>/WEB-INF/jsp/common.jsp</include-prelude>
+    </jsp-property-group>
+  </jsp-config>
+</web-app>
